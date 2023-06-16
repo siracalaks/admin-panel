@@ -1,0 +1,14 @@
+.container{
+    position: relative;
+}
+
+
+.table-wrap {
+    position: relative;
+    overflow: auto;
+}
+
+th,
+td {
+    flex-basis: 0;
+}

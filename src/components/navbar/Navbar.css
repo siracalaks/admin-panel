@@ -1,0 +1,53 @@
+/* turuncu #ff8a00 */
+/* lacivert #3b368c */
+.navbar{
+  width: 100%;
+}
+
+.navbar-logo {
+  width: 10%;
+  margin-left: 15px;
+}
+
+li {
+  font-size: large;
+  font-weight: 500;
+}
+
+
+a.navbar-brand.ms-5.fs-2.fw-bold,
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: #3b368c;
+}
+
+a.navbar-brand.ms-5.fs-2.fw-bold:hover,
+.navbar-nav .nav-link.active:hover,
+.navbar-nav .show > .nav-link:hover {
+  color: #ff8a00;
+}
+
+.logo-animation {
+  width: 21.5ch;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid #212121;
+  animation: cursor 1s step-start infinite, 
+    text 5s steps(20) alternate infinite;
+}
+
+@keyframes cursor {
+  0%, 100% { 
+    /* height: 50px; */
+    border-color: #ff8a00; 
+  }
+}
+
+@keyframes text {
+  0% { 
+    width: 6.5ch; 
+  }
+  100% { 
+    width: 9.2ch; 
+  }
+}

@@ -1,0 +1,23 @@
+input{
+    border: 1px solid #3b368c;
+    padding: 5px;
+}
+
+/* @media (min-width: 571px) and (max-width: 992px) { */
+@media (max-width: 992px) {
+    .category-input-group{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+    .category-input{
+        display: flex;
+        justify-content: center;
+    }
+
+    .category-input:nth-child(2)  label.me-2.fw-bold {
+        padding-right: 44px;
+    }
+}
